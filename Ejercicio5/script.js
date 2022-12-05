@@ -13,9 +13,9 @@ let mas = 18;
 let fem = 20;
 edad = prompt("Hombre mayor de 18 o Mujer mayor de 20");
 if (edad >= 18) {
-    alert("Puedes entrar, eres hombre.");
+    alert("Puedes entrar, eres mayor.");
 } else if (edad >= 20) {
-    alert("Puedes entrar, eres mujer.");
+    alert("Puedes entrar, eres mayor.");
 }
 if (edad < 18) {
     alert("Eres menor de edad")
